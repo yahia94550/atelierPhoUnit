@@ -49,15 +49,11 @@ class ProductTest extends TestCase
     {
 
         return [
-
             [0, 0.0],
-
             [20, 1.1],
-
             [100, 5.5],
-
             [200, 11.0]
-
+            [400, 22.0]
         ];
 
     }
