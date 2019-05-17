@@ -56,7 +56,7 @@ class ProductTest extends TestCase
 
             [100, 5.5],
 
-            [200, 11]
+            [200, 11.0]
 
         ];
 
