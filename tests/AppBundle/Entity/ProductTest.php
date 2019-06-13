@@ -15,6 +15,7 @@ use PHPUnit\Framework\TestCase;
 class ProductTest extends TestCase
 
 {
+    protected $stack;
 
 //    public function testcomputeTVAFoodProduct()
 //
@@ -32,7 +33,7 @@ class ProductTest extends TestCase
 
      */
 
-    public function testcomputeTVAFoodProduct($price, $expectedTva)
+    public function testcomputeTvaFoodProduct($price, $expectedTva)
 
     {
 
@@ -58,7 +59,7 @@ class ProductTest extends TestCase
 
     }
 
-    public function testComputeTVAOtherProduct()
+    public function testComputeTvaOtherProduct()
 
     {
 
@@ -69,7 +70,7 @@ class ProductTest extends TestCase
 
     }
 
-    public function testNegativePriceComputeTVA()
+    public function testNegativePriceComputeTva()
 
     {
 
@@ -80,5 +81,29 @@ class ProductTest extends TestCase
         $product->computeTVA();
 
     }
+
+//    protected function setUp()
+//    {
+//        $this->stack = [];
+//    }
+//
+//    public function testEmpty()
+//    {
+//        $this->assertTrue(empty($this->stack));
+//    }
+//
+//    public function testPush()
+//    {
+//        array_push($this->stack, 'foo');
+//        $this->assertSame('foo', $this->stack[count($this->stack)-1]);
+//        $this->assertFalse(empty($this->stack));
+//    }
+//
+//    public function testPop()
+//    {
+//        array_push($this->stack, 'foo');
+//        $this->assertSame('foo', array_pop($this->stack));
+//        $this->assertTrue(empty($this->stack));
+//    }
 
 }
