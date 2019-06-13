@@ -8,6 +8,8 @@
 
 namespace AppBundle\Entity;
 
+use PHPUnit\Framework\TestCase;
+
 
 class Product
 {
