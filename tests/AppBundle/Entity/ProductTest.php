@@ -36,14 +36,9 @@ class ProductTest extends TestCase
     public function testcomputeTvaFoodProduct($price, $expectedTva)
 
     {
-
         $product = new Product('Un produit', Product::FOOD_PRODUCT, $price);
-
-
         $this->assertSame($expectedTva, $product->computeTVA());
-
     }
-
 
     public function pricesForFoodProduct()
 
