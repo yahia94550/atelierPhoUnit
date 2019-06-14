@@ -249,6 +249,8 @@ qui montre le code qui a été exécuté par vos tests.
  requis pour l'éxécution d'un test puis de réinitialiser l'environnement quand le test est terminé. 
  Cet état requis pour l'éxecution d'un test est appelé la fixture du test.
  
+ https://www.dyclassroom.com/phpunit/phpunit-fixtures-setup-and-teardown
+ 
  #### Annotations ###
  
  ne annotation est une forme spéciale de métadonnée syntaxique qui peut être ajoutée au code source de certains lan-
@@ -261,6 +263,10 @@ qui montre le code qui a été exécuté par vos tests.
  getDocComment()
  au niveau des fonctions, classes, méthodes et attributs.
  Des applications telles que PHPUnit utilisent ces informations durant l’exécution pour adapter leur comportement.
+ 
+ #### Stub et Mock ##
+ 
+ http://fyligrane.fr/3_php/19_Les%20tests%20avec%20PHPUnit/4_Test%20des%20d%C3%A9pendances.html
  
  **Quand faut-il tester ?**
  
